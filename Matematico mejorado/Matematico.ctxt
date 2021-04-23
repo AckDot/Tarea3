@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Matematico
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Matematico\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=a\ b\ c
+comment1.target=java.lang.String\ ObtenerValoresDeX(double,\ double,\ double)
+comment2.params=pt1\ pt2
+comment2.target=java.lang.String\ FormulaRecta(Punto,\ Punto)
+comment3.params=hip\ c1
+comment3.target=java.lang.String\ BuscarCateto(double,\ double)
+comment4.params=n1\ n2\ n3
+comment4.target=java.lang.String\ DeterminarElMayorMenorEIgual(double,\ double,\ double)
+comment5.params=base\ altura
+comment5.target=java.lang.String\ DeterminarAreaCuadrados(double,\ double)
+comment6.params=punto1\ punto2
+comment6.target=java.lang.String\ DistanciaPuntos(Punto,\ Punto)
+comment7.params=puntocuadrante
+comment7.target=java.lang.String\ determinarcuadrante(Punto)
+numComments=8

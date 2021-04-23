@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Calculadora
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Calculadora\ here.\r\n\r\n\ @author\ Jos\u00E9\ Roberto\ Vargas\ Orellana\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Calculadora()
+comment2.params=a\ b\ c
+comment2.target=java.lang.String\ ObtenerValoresDeX(double,\ double,\ double)
+comment3.params=pt1\ pt2
+comment3.target=java.lang.String\ FormulaRecta(Punto,\ Punto)
+comment4.params=hip\ c1
+comment4.target=java.lang.String\ BuscarCateto(double,\ double)
+numComments=5

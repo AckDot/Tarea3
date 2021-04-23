@@ -2,24 +2,32 @@
 /**
  * Write a description of class Matematico here.
  *
- * @author (your name)
+ * @author L
  * @version (a version number or a date)
  */
 public class Matematico
 {
     private Calculadora calculadora;
-    
+
+    public Matematico(Calculadora calculadora){
+     this.calculadora= calculadora ;
+    }
     String ObtenerValoresDeX(double a, double b , double c){
-     return calculadora.ObtenerValoresDeX(a, b, c);
+     String metodoresultado = calculadora.ObtenerValoresDeX(a,b,c);
+        return metodoresultado;
     }
+
     public String FormulaRecta(Punto pt1 , Punto pt2){
-     return calculadora.FormulaRecta(pt1, pt2);
+        String metodoresultado = calculadora.FormulaRecta(pt1, pt2);
+        return metodoresultado;
     }
-     public String BuscarCateto(double hip, double c1){
-        return calculadora.BuscarCateto( hip, c1 );
-        }
-        
-      public String DeterminarElMayorMenorEIgual(double n1,double n2,double n3){
+
+    public String BuscarCateto(double hip, double c1){
+        String metodoresultado = calculadora.BuscarCateto( hip, c1 );
+        return metodoresultado ;
+    }
+
+    public String DeterminarElMayorMenorEIgual(double n1,double n2,double n3){
 
         if((n1>n2) && (n1>n3)){
 
@@ -45,9 +53,9 @@ public class Matematico
                 return "El mayor es el tercer numero :"+n3+" El numero medio es "+n2+" y el menor"+n1;
             }
         }else{
-        return "Error al ingresar datos";
+            return "Error al ingresar datos";
         }
-         return "fin del metodo determinar orden de 3 numeros"  ;
+        return "fin del metodo determinar orden de 3 numeros"  ;
     }
 
     public String DeterminarAreaCuadrados(double base, double altura){
